@@ -1,5 +1,5 @@
 module hamming1511_encoder (
-    input [10:0] data, 
+    input [10:0] data,     // [ d10 d9 d8 d7 d6 d5 d4 d3 d2 d1 d0 ]
     output [14:0] encoded  // [ p1 p2 d0 p3 d1 d2 d3 p3 d4 d5 d6 d7 d8 d9 d10 ]
 );
     wire p1, p2, p3, p4;
