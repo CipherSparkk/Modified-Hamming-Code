@@ -2,7 +2,7 @@
 
 module hamming74_decoder(
     input [6:0] received,
-    output [3:0] corrected,
+    output [3:0] data_out,
     output error_flag
 );
     wire [2:0] syndrome;
